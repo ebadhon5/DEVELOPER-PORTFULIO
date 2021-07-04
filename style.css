@@ -7,7 +7,7 @@ h1{
 .orrange{
     color:rgb(94, 17, 90) ;
 }
-section{
+.flexible-container{
     display:flex ;
     margin-bottom: 100px;
 }
@@ -25,4 +25,27 @@ section{
     font-weight: 700;
     padding: 10px 20px;
     border-radius:5px ;
+}
+.Experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#baby{
+    border-left: 10px solid;
+     border-image:linear-gradient (blue,cyan);
+     border-image-slice:1 ; 
+    
+}
+#full-stack{
+    border-left: 10px solid;
+     border-image:linear-gradient (salmon,tomato);
+     border-image-slice:1 ; 
+}
+footer p{
+     text-align:center;
 }
